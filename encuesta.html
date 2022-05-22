@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación de sitio</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <a href="index.html">Regresar</a>
+        </nav>
+        <span><img src="img/logo1.png" width="100" height="100" alt="logo principal pagina web"></span>
+        <h1>EVALUACIÓN DEL SITIO</h1>
+        <h3>Autor: Roberto Córdova</h3>
+        <h3>Este post contiene: Herramientas para el diseño web</h3>
+    </header>
+    <form action="../../form-result.php" method="get" target="_blank">
+
+        <fieldset>
+      
+          <legend>DATOS PERSONALES</legend>
+      
+          <p><label>Nombre completo: <input type="text" name="nombrecompleto"></label></p>
+      
+          <p><label>Fecha de nacimiento: <input type="date" name="fechadenacimiento"></label></p>
+      
+          <p>Género:
+      
+            <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+      
+            <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+      
+          </p>
+      
+          <p><label>edad: <input type="number" name="edad"></label></p>
+      
+          <p><label>email: <input type="email" name="email"></label></p>
+      
+        </fieldset>
+      
+        <fieldset>
+      
+          <legend>RESPONDA LA ENCUENSTA</legend>
+      
+          <p>La página web cuenta con contenidos actuales?<br>
+      
+            <label><input type="radio" name="pregunta1" value="bueno"> bueno</label>
+      
+            <label><input type="radio" name="pregunta1" value="regular"> regular</label>
+      
+            <label><input type="radio" name="pregunta1" value="malo"> malo</label>
+      
+          </p>
+          <p>La presentación visual es atractiva al usuario?<br>
+      
+            <label><input type="radio" name="pregunta2" value="bueno"> bueno</label>
+      
+            <label><input type="radio" name="pregunta2" value="regular"> regular</label>
+      
+            <label><input type="radio" name="pregunta2" value="malo"> malo</label>
+      
+          </p>
+              
+        </fieldset>
+      
+        <p>
+      
+          <input type="submit" value="Enviar datos">
+      
+          <input type="reset" value="Restaurar formulario">
+      
+        </p>
+      
+      </form>
+     
+</body>
+</html>
